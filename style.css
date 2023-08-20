@@ -1,0 +1,402 @@
+*
+{
+    margin: 0px;
+    font-family: 'Gill Sans', sans-serif;
+}
+body{
+    scroll-behavior: smooth;
+}
+#navbar
+{
+background-color: rgb(19,25,33);
+height: 60px;
+color: white;
+display: flex;
+align-items: center;
+width: 100%;
+justify-content: space-evenly;
+}
+#amazonlogo
+{
+    width: 120px;
+    height: 60px;
+}
+#logo
+{
+background-image: url(/images/amazonlogo.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 50px;
+margin-top: 4px;
+}
+.border
+{
+border: 1px solid transparent;
+}
+.border:hover
+{
+    border: 1px solid white;
+}
+/*box2*/
+.location-bar
+{
+width: 100px;
+height: 60px;
+}
+#locdiv
+{
+    display: inline-block;
+    width: 80px;
+}
+#location
+{
+margin-top: 4px;
+height: 52px;
+}
+#india
+{
+    font-weight: 800;
+}
+#deliver
+{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+/* box-3 */
+#search-bar{
+    width: 500px; 
+}
+#box-3:hover
+{
+    border: 2px solid orangered;
+}
+#box-3
+{
+    display: flex;
+    width: 600px;
+    height: 46px;
+    margin-left: 3px;
+}
+#box-3 input,select,button
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px; 
+    padding: 15px;
+}
+#box-3 input
+{
+width: 70%;
+font-size: 1.2rem;
+font-family: 'Gill Sans', sans-serif;
+background-color: rgb(255,255,255);
+}
+#box-3 select
+{
+width: 20%;
+text-align: center;
+font-family: 'Gill Sans', sans-serif;
+font-weight: 600;
+background-color: rgb(218,218,218);
+border-top-left-radius: 5px; 
+border-bottom-left-radius: 5px; 
+}
+#box-3 button
+{
+    width: 10%; 
+    background-color: rgb(254,189,105);
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px;
+    font-size: 1.5rem; 
+}
+#box-3 button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* box-4 */
+#accountsignin
+{
+    color: rgb(255,255,255);
+}
+#box-4
+{
+margin-left: 120px;
+height: 55px;
+display: flex;
+align-items: center;
+}
+#accountsignin i
+{
+    color: rgb(167,172,178);
+}
+#samllp{
+    font-size: 0.9rem;
+    font-family:'Gill Sans', sans-serif ;
+    font-weight: 600;
+}
+#bigp{
+    font-size: 1.2rem;
+    font-family:'Gill Sans', sans-serif ;
+    font-weight: 700;
+}
+#box-5 #returns p1,p2
+{
+    color: white;
+}
+#p1
+{
+    font-size: 0.9rem;
+    font-family:'Gill Sans', sans-serif ;
+    font-weight: 600;
+}
+#p2
+{
+    font-size: 1.2rem;
+    font-family:'Gill Sans', sans-serif ;
+    font-weight: 800;
+}
+#box-5{
+    margin-left: 15px;
+    height: 54px;
+    display: flex;
+align-items: center;
+}
+/* box-6 */
+#cart i{
+    color: rgb(253, 253, 253);
+    font-size: 2rem;
+    font-weight: 700; 
+}
+#cart span{
+    font-family:'Gill Sans', sans-serif ;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 700;
+}  
+#box-6{
+    height: 55px;
+}
+#cart{
+    margin-top: 7px;  
+} 
+/* navbar-2 */
+#navbar-2{
+    display: flex;
+    align-items: center;
+    background-color: rgb(35,47,62);
+    width: 100%;
+    height: 40px;
+    color: white;
+}
+#all-icon 
+{
+color: white;
+padding-right: 5px;
+padding-left: 5px;
+font-weight: 800;
+margin-right: 8px;
+margin-left: 5px;
+display: flex;
+align-items: center;
+height: 35px;
+font-family: 'Gill Sans', sans-serif;
+}
+#mid-div{
+    display: flex;
+    width: 80%;
+    height: 40px;
+    font-family: 'Gill Sans', sans-serif;
+}
+.center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    height: 35px;
+    font-family: 'Gill Sans', sans-serif;
+}
+#right-div{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 35px;
+    font-weight: 550;
+    font-size: 1.0rem;
+    font-family: 'Gill Sans', sans-serif;
+}
+#bgimage
+{
+    background-image: url("/images/mainimage.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+#bgimage div{
+    color:black;
+    background-color: rgb(245,246,246);
+    height: 20px;
+padding: 10px;
+margin-left: 14px;
+margin-right: 14px;
+margin-bottom: 20px;
+
+}
+#bgimage a{
+    text-decoration: none;
+    color: blue;
+}
+#boxp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans',  sans-serif;
+    font-size: 0.85rem;
+    width: 70%;
+    height: 40px;
+    background-color:burlywood;
+
+}
+/* 4images */
+.images4
+{
+    display: flex;
+    background-color: rgb(227,230,230);
+    justify-content: space-evenly;
+    
+}
+.images4 .box
+{
+background-color: white;
+width: 300px;
+height: 385px;
+margin-top: 15px;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.innerbox
+{
+    width: 85%;
+    height: 90%;
+}
+.innerbox h2
+{
+    font-family: 'Gill Sans',  sans-serif;
+margin-bottom: 10px;
+}
+.innerbox img{
+    margin-bottom:10px ;
+}
+.innerbox span
+{
+color: blue;
+font-weight: 600;
+font-family: 'Gill Sans',  sans-serif;
+}
+.innerbox span:hover
+{
+    color: red;
+
+}
+/* footer */
+.backtotop
+{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(55,71,90);
+text-align: center;
+color: white;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backtotop a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+}
+.second-section
+{
+    width: 100%;
+    background-color: rgb(35,47,62);
+    height: 500px;
+
+}
+.second-section
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+ul
+{
+    display: block;
+}
+ul li
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+.bold
+{
+    font-weight: 600;
+}
+#footer3
+{
+    
+    width: 100%;
+    height: 100px;
+    background-color:rgb(35,47,62) ;
+border-top: 0.4px solid white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#imag
+{
+    background-image: url(/images/amazonlogo.png);
+    width: 200px;
+    height: 80px;
+    background-size: cover;
+}
+#enddiv
+{
+    background-color: rgb(19,26,34);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#enddiv p a
+{
+    color: white;
+    text-decoration: none;
+
+}
+#enddiv p 
+{
+    color: white;
+    text-decoration: none;
+    font-weight: 550;
+}
